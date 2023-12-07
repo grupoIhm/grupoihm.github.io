@@ -4,44 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            text-align: center;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div>Integrantes do Grupo:</div>
+        <ul>
+            <li>Lucas de Oliveira Freitas</li>
+            <li>Luiz Eduardo Alves Constancio</li>
+            <li>Pablo Yohan dos Santos Dias</li>
+            <li>Rian Silva Santos</li>
+        </ul>
+    </header>
 
-<div class="container">
-    <img src="BRAINSTORM.jpg" alt="Imagem 1">
-    <p>Após BRAINSTORM</p>
+    <div class="main">
+        <section class="BrainStorm">
+            <img src="assets/BRAINSTORM.jpg" alt="Imagem 1">
+            <div class="texto">
+                <div><p>Neste primeiro momento analisamos novamente o fluxo dos dados, para
+                termos uma melhor noção de qual era o problema e como iriamos ataca-lo</p>
+                </div>
+                <div><p>Após isso, buscamos juntar nossas ideias de como resolver os problemas encontrados</p></div>
+                <div><p>Por fim refinamos as ideias, vendo quais cabiam ao nosso escopo e quais deveriamos deixar de lado.</p></div>
+            </div>
 
-    <img src="Prototipo Back-End.jpg" alt="Imagem 2">
-    <p>Diagrama da captação dos dados</p>
+        </section>
 
-    <img src="tela1.jpeg" alt="Imagem 3">
-    <p>Tela dashboards dos dados</p>
+        <section class="backend">
+            <img src="assets/Prototipo Back-End.jpg" alt="Imagem 2">
+            <div class="texto2">
+                <p class="titulo">Diagrama da captação dos dados</p>
+                <div>
+                    <p>
+                        Nessa etapa buscamos criar um pequeno fulxograma, para termos uma noção de como seria a o Envio dos dados ao Banco e também como um script iria buscar esses Dados
+                    </p>
+                </div>
+            </div>
+        </section>
 
-    <img src="tela2.png" alt="Imagem 4">
-    <p>Tela opção extração</p>
 
-   
-</div>
+        <section class="tela1">
+            <img src="assets/tela1.jpeg" alt="Imagem 3">
+            <div class="texto2">
+                <p class="titulo">Tela dashboards dos dados</p>
+                <div>
+                    <p>
+                        Aqui criamos um protótipo de baixa fidelidade da tela de gráficos da nossa interface, um pequeno dashboard, mas que traga mais informações relevantes ao usuário.
+                    </p>
+                </div>
+            </div>
+        </section>
 
+        <section class="tela2">
+            <img src="assets/tela2.png" alt="Imagem 4">
+            <div class="texto2">
+                <p class="titulo">Tela opção extração</p>
+                <div>
+                    <p>
+                        Este segundo protótipo de baixa fidelidade é um pequeno modal, para que o usuário possa ter mais opções de extração de dados, podendo por exemplo, filtrar por data.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tela3">
+            <img src="assets/prototipo.jpg" alt="Imagem 5">
+            <div class="texto2">
+                <p class="titulo">Protótipo de Alta fidelidade</p>
+                <div class="conteudo">
+                    <div>
+                        Por fim chegamos ao protótipo de alta fidelidade, dando um pequeno inicio do que seria o projeto completo.
+                    </div>
+                    <div class="link">
+                        Aqui temos o link para o projeto:
+
+                    </div>
+                    <button>
+                        <a href="https://www.figma.com/proto/N85p2W9mamsdC5RCrX26pe/Prot%C3%B3tipo?type=design&node-id=1-21&t=ezanm7wJKV1i1Ygz-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=31%3A1510&mode=design" target="_blank">Protótipo</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
 </body>
 </html>
